@@ -1,10 +1,12 @@
-# Dashboard de Recursos Humanos
+# Dashboard de Recursos Humanos | Caso de estudio: LuzuTV & OLGA 🚀
 
-## Historia de Usuario
+> ⚠️ **Disclaimer:** Este proyecto utiliza información completamente ficticia generada de forma aleatoria con fines exclusivamente educativos. No representa datos reales de LuzuTV, OLGA ni de ninguna otra organización.
+## 📌 Acerca del proyecto
+Este proyecto consiste en el desarrollo de un dashboard de Recursos Humanos inspirado en la estructura organizacional de dos de los principales canales de streaming de Argentina: **LuzuTV** y **OLGA**.
 
-Como responsable de Recursos Humanos quiero un dashboard analítico que me permita visualizar el estado del capital humano de la empresa, ofreciendo una vista resumida para obtener indicadores generales y una vista detallada de cada empleado para realizar análisis más profundos.
+El objetivo es simular un escenario empresarial real para analizar indicadores de personal, composición del equipo y métricas salariales mediante visualizaciones interactivas.
 
-
+Toda la información utilizada fue generada de forma ficticia con fines exclusivamente educativos.
 
 ### Objetivos 
 
@@ -78,9 +80,24 @@ La tabla permitirá filtrar los empleados por cualquiera de las columnas disponi
 
 > **Objetivo:** facilitar el análisis individual de cada empleado e identificar posibles patrones o discrepancias.
 ---
-## ☕ Mi contacto.
+## ☕ Contacto
 
-Si te interesó el proyecto, tenes alguna duda o también reclamo a continuación dejo mi Linkedin y mi correo electrónico para que te comuniques conmigo!
+Si te interesó el proyecto, tenés alguna consulta o sugerencia, o representás a alguna de las organizaciones mencionadas y querés solicitar modificaciones o la eliminación de alguna referencia, no dudes en comunicarte conmigo.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/baraa-khatib-salkini](https://www.linkedin.com/in/jeronimo-vega/))
 [![Email](https://img.shields.io/badge/Email%20-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jerovegadev@gmail.com)
+---
+## ⚠️ Descargo de responsabilidad
+
+Este proyecto fue desarrollado con fines exclusivamente educativos, de aprendizaje y demostración técnica dentro de un portfolio personal.
+
+Toda la información presentada en el dashboard (empleados, salarios, edades, evaluaciones de desempeño, ubicaciones y cualquier otro dato de Recursos Humanos) es **completamente ficticia** y fue **generada de manera aleatoria** con el único propósito de construir un caso de uso realista para el análisis de datos y la visualización mediante dashboards.
+
+Cualquier semejanza con personas, organizaciones o situaciones reales es **mera coincidencia** y no representa información auténtica de ninguna empresa.
+
+Las referencias a **LuzuTV** y **OLGA** tienen un carácter exclusivamente ilustrativo y educativo, utilizándose únicamente como inspiración para contextualizar el proyecto. En ningún caso existe la intención de divulgar, representar o inferir información interna, confidencial o privada de dichas organizaciones, ni de afectar su imagen o actividad comercial.
+
+Si algún representante de las marcas mencionadas considera que alguna referencia podría generar confusión o prefiere que se elimine cualquier identificación con su organización, me encuentro completamente a disposición para realizar las modificaciones o remociones que sean necesarias.
+
+Agradezco cualquier observación o sugerencia relacionada con el proyecto y quedo disponible para responder consultas a través de los medios de contacto indicados.
+
