@@ -77,3 +77,9 @@ Listado completo de colaboradores con la siguiente información:
 La tabla permitirá filtrar los empleados por cualquiera de las columnas disponibles.
 
 > **Objetivo:** facilitar el análisis individual de cada empleado e identificar posibles patrones o discrepancias.
+---
+## ☕ Mi contacto.
+
+Si te interesó el proyecto, tenes alguna duda o también reclamo a continuación dejo mi Linkedin para que me lo puedas hacer saber!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/baraa-khatib-salkini](https://www.linkedin.com/in/jeronimo-vega/))
