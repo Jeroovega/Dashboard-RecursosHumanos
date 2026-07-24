@@ -69,6 +69,7 @@ Listado completo de colaboradores con la siguiente información:
 | Columna | Ejemplo |
 | :------- | :------ |
 | Nombre y Apellido | Juan Vargas |
+| Empresa | LuzuTV - Olga |
 | Departamento | Producción |
 | Posición | Asistente General |
 | Género | Masculino |
