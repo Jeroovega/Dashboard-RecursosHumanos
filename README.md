@@ -64,22 +64,80 @@ La sección de ingresos está orientada al análisis de las métricas salariales
 
 ### Registro de Empleados
 
-Listado completo de colaboradores con la siguiente información:
+El dashboard incluye un listado completo de colaboradores con información detallada para realizar análisis individuales y aplicar filtros dinámicos. La tabla permitirá filtrar los empleados por cualquiera de las columnas disponibles.
 
 | Columna | Ejemplo |
-| :------- | :------ |
-| Nombre y Apellido | Juan Vargas |
-| Empresa | LuzuTV - Olga |
-| Departamento | Producción |
-| Posición | Asistente General |
+| :--- | :--- |
+| ID Empleado | EMP-0001 |
+| Nombre | Santiago |
+| Apellido | Soria |
+| Empresa | LuzuTV |
+| Programa | Nadie Dice Nada |
+| Área | Producción |
+| Puesto | Asistente de Producción |
 | Género | Masculino |
-| Edad | 26 |
 | Educación | Universitario en curso |
-| Salario | \$2.500.000 |
+| Provincia | Buenos Aires |
+| Ciudad | La Plata |
+| Tipo de contrato | Full Time |
+| Salario | $1.650.000 |
+| Rendimiento | Bueno |
+| Horas extra | No |
+| Fecha de ingreso | 2023-10-05 |
+| Fecha de baja | - |
 
-La tabla permitirá filtrar los empleados por cualquiera de las columnas disponibles.
+> La información presentada corresponde a datos ficticios generados automáticamente y no representa empleados reales.
 
 > **Objetivo:** facilitar el análisis individual de cada empleado e identificar posibles patrones o discrepancias.
+---
+## 🧪 Generación de datos ficticios
+
+Para la construcción del dashboard se desarrolló un generador de datos sintéticos en Python utilizando la librería **Faker**, junto con estructuras personalizadas para representar una organización de streaming argentina.
+
+El dataset generado contiene información ficticia de **250 empleados distribuidos entre LuzuTV y OLGA**, simulando una estructura organizacional realista de una empresa de medios digitales.
+
+Los datos fueron diseñados teniendo en cuenta:
+
+- Distribución de empleados por áreas según una estructura típica de una productora audiovisual.
+- Diferenciación entre roles creativos, técnicos, comerciales y administrativos.
+- Salarios aproximados en pesos argentinos para el año 2026 según el tipo de puesto.
+- Ubicaciones basadas en provincias y ciudades argentinas.
+- Diferentes modalidades de contratación (Tiempo Completo, Medio Tiempo y Freelance).
+- Fechas de ingreso comprendidas entre 2020 y 2026.
+- Registro de empleados activos y desvinculados.
+- Niveles educativos y evaluaciones de desempeño.
+
+El objetivo de esta generación de datos no es representar información real de ninguna organización, sino crear un escenario empresarial ficticio que permita practicar análisis de Recursos Humanos, modelado de datos y construcción de dashboards.
+
+---
+
+## 📋 Estructura del dataset
+
+El archivo `empleados.csv` contiene las siguientes columnas:
+
+| Columna | Descripción | Ejemplo |
+| :--- | :--- | :--- |
+| `id_empleado` | Identificador único del empleado | EMP-0001 |
+| `nombre` | Nombre del colaborador | Santiago |
+| `apellido` | Apellido del colaborador | Soria |
+| `genero` | Género del empleado | Masculino |
+| `empresa` | Organización a la que pertenece | LuzuTV |
+| `programa` | Programa asociado o área corporativa | Nadie Dice Nada |
+| `area` | Área principal dentro de la organización | Producción |
+| `puesto` | Rol desempeñado por el empleado | Productor General |
+| `educacion` | Nivel educativo alcanzado | Universitario completo |
+| `provincia` | Provincia de residencia | Buenos Aires |
+| `ciudad` | Ciudad de residencia | La Plata |
+| `tipo_contrato` | Modalidad laboral | Full Time |
+| `salario` | Salario mensual estimado en pesos argentinos | $2.500.000 |
+| `rendimiento` | Evaluación de desempeño | Muy Bueno |
+| `horas_extra` | Indicador de realización de horas extra | Sí |
+| `fecha_ingreso` | Fecha de incorporación a la empresa | 2023-10-05 |
+| `fecha_nacimiento` | Fecha de nacimiento ficticia | 2002-07-30 |
+| `fecha_baja` | Fecha de desvinculación (si corresponde) | 2025-03-10 |
+
+> Todos los registros fueron generados automáticamente y no corresponden a empleados reales.
+
 ---
 ## ☕ Contacto
 
